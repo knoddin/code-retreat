@@ -5,10 +5,13 @@ class World
     @width
   end
 
-#conditions 
+#conditions
 #you think conditions up here change the state of the cell? or should we have these
 #be within the cell class? im not sure just asking. there is a method to change state
+
   def underpop
+    #so each cell has coordinates around it - the sum of them should add up to a
+    #value that we can use in these methods?
   end
 
   def overpop
